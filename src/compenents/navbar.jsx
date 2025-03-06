@@ -1,13 +1,15 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './Navbar.css'; // Import your custom CSS file
+import React from "react";
+import { Link } from "react-router-dom";
+import "./Navbar.css"; // Import your custom CSS file
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light custom-navbar">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
-          <h4 className="brand-name">Ayodhya Family Restaurant</h4>
+          <h4 className="brand-name">
+            <Link to="/">Ayodhya Family Restaurant</Link>
+          </h4>
         </Link>
         <button
           className="navbar-toggler"
@@ -23,7 +25,7 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <Link className="nav-link" to="/foodmenu">
+              <Link className="nav-link" to="/">
                 FOOD MENU
               </Link>
             </li>

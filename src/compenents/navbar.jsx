@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
           <h4 className="brand-name">
-            <Link to="/">Ayodhya Family Restaurant</Link>
+            <Link to="/" style={{textDecoration:"none", color:"white"}}>Ayodhya Family Restaurant</Link>
           </h4>
         </Link>
         <button

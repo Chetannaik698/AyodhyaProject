@@ -21,6 +21,27 @@
     color: #d1e8ff; /* Light sky blue */
     margin-top: 5px;
   }
+  .tagline-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .typing {
+    border-right: 2px solid white;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    animation: blink 0.7s infinite;
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
   body {
     font-family: Arial, sans-serif;
     background-color: #f8f9fa;

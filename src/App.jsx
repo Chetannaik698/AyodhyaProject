@@ -4,10 +4,12 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import VegmainPage from "./compenents/vegmain-course/VegmainPage";
 import RefreshmentPage from "./compenents/Refreshment/RefreshmentPage";
 import VegStater from "./compenents/vegstater/VegStater";
+import Tagline from "./compenents/Tagline";
 
 function App() {
   return (
     <BrowserRouter>
+      <Tagline />
       <Navbar />
       <Routes>
         <Route path="/" element={<FoodPage />}></Route>

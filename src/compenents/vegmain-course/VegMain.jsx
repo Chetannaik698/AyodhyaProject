@@ -7,18 +7,22 @@ const VegMain = () => {
         <h2 className="menu-heading">DAL PREPARATION</h2>
         <ul className="menu-list">
           <li>
+          <img src="/daal_fry.jpg" alt="" className="menu-item-img"/>
             <span className="item-name">Dal Fry</span>{" "}
             <span className="item-price">130</span>
           </li>
           <li>
+          <img src="/Dal-Tadka-12.jpg" alt="" className="menu-item-img"/>
             <span className="item-name">Dal Thadka</span>{" "}
             <span className="item-price">150</span>
           </li>
           <li>
+          <img src="/daal_palak.jpg" alt="" className="menu-item-img"/>
             <span className="item-name">Dal Palak</span>{" "}
             <span className="item-price">150</span>
           </li>
           <li>
+          <img src="/daal_kholapuri.webp" alt="" className="menu-item-img"/>
             <span className="item-name">Dal Kolhapuri</span>{" "}
             <span className="item-price">150</span>
           </li>
@@ -28,22 +32,27 @@ const VegMain = () => {
         <h2 className="menu-heading">KAJU PREPARATION</h2>
         <ul className="menu-list">
           <li>
+          <img src="/kaju.webp" alt="" className="menu-item-img"/>
             <span className="item-name">Kaju Masala</span>{" "}
             <span className="item-price">220</span>
           </li>
           <li>
+          <img src="/kaju_kadai.jpg" alt="" className="menu-item-img"/>
             <span className="item-name">Kaju Kadai</span>{" "}
             <span className="item-price">220</span>
           </li>
           <li>
+          <img src="/kaju_kholapuri.jpg" alt="" className="menu-item-img"/>
             <span className="item-name">Kaju Kolhapuri</span>{" "}
             <span className="item-price">220</span>
           </li>
           <li>
+          <img src="/kaju_paneer.jpg" alt="" className="menu-item-img"/>
             <span className="item-name">Kaju Panner</span>{" "}
             <span className="item-price">250</span>
           </li>
           <li>
+          <img src="/kaju_mashroom.png" alt="" className="menu-item-img"/>
             <span className="item-name">Kaju Mushroom</span>{" "}
             <span className="item-price">240</span>
           </li>
@@ -53,46 +62,57 @@ const VegMain = () => {
         <h2 className="menu-heading">PANEER PREPARATION</h2>
         <ul className="menu-list">
           <li>
+          <img src="/paneer_masala.jpg" alt="" className="menu-item-img"/>
             <span className="item-name">Paneer Masala</span>{" "}
             <span className="item-price">200</span>
           </li>
           <li>
+          <img src="/paneer_chema.webp" alt="" className="menu-item-img"/>
             <span className="item-name">Paneer Chema</span>{" "}
             <span className="item-price">240</span>
           </li>
           <li>
+          <img src="/paneer_butter_masala.jpg" alt="" className="menu-item-img"/>
             <span className="item-name">Paneer Butter Masala</span>{" "}
             <span className="item-price">220</span>
           </li>
           <li>
+          <img src="/paneer_kadai.jpg" alt="" className="menu-item-img"/>
             <span className="item-name">Paneer Kadai</span>{" "}
             <span className="item-price">220</span>
           </li>
           <li>
+          <img src="/paneer_kholapuri.png" alt="" className="menu-item-img"/>
             <span className="item-name">Paneer Kolhapuri</span>{" "}
             <span className="item-price">220</span>
           </li>
           <li>
+          <img src="/Paneer-Bhurji.jpg" alt="" className="menu-item-img"/>
             <span className="item-name">Paneer Burji</span>{" "}
             <span className="item-price">240</span>
           </li>
           <li>
+          <img src="/paneer_tikka_masala.jpg" alt="" className="menu-item-img"/>
             <span className="item-name">Paneer Tikka Masala</span>{" "}
             <span className="item-price">240</span>
           </li>
           <li>
+          <img src="/mutter_paneer.jpg" alt="" className="menu-item-img"/>
             <span className="item-name">Paneer Mutter</span>{" "}
             <span className="item-price">220</span>
           </li>
           <li>
+          <img src="/malai_kofta.jpg" alt="" className="menu-item-img"/>
             <span className="item-name">Malai Kofta</span>{" "}
             <span className="item-price">240</span>
           </li>
           <li>
+          <img src="/Methi-malai-matar-2.webp" alt="" className="menu-item-img"/>
             <span className="item-name">Methi Malai Mutter</span>{" "}
             <span className="item-price">240</span>
           </li>
           <li>
+          <img src="/navarathana_kurma.png" alt="" className="menu-item-img"/>
             <span className="item-name">Navarathna Kurma</span>{" "}
             <span className="item-price">250</span>
           </li>
@@ -102,18 +122,22 @@ const VegMain = () => {
         <h2 className="menu-heading">PALAK PREPARATION</h2>
         <ul className="menu-list">
           <li>
+          <img src="/plain_palak.jpg" alt="" className="menu-item-img"/>
             <span className="item-name">Plain Palak</span>{" "}
             <span className="item-price">150</span>
           </li>
           <li>
+            <img src="/palak_paneer.jpg" alt="" className="menu-item-img"/>
             <span className="item-name">Palak Paneer</span>{" "}
             <span className="item-price">200</span>
           </li>
           <li>
+            <img src="/aloo_palak.jpg" alt="" className="menu-item-img"/>
             <span className="item-name">Aloo Palak</span>{" "}
             <span className="item-price">160</span>
           </li>
           <li>
+            <img src="/mushroom_palak.jpg" alt="" className="menu-item-img"/>
             <span className="item-name">Mushroom Palak</span>{" "}
             <span className="item-price">180</span>
           </li>
@@ -123,94 +147,117 @@ const VegMain = () => {
         <h2 className="menu-heading">VEG PREPARATION</h2>
         <ul className="menu-list">
           <li>
+          <img src="/veg_curry.jpg" alt="" className="menu-item-img"/>
             <span className="item-name">Veg Curry</span>{" "}
             <span className="item-price">160</span>
           </li>
           <li>
+          <img src="/mix_veg_masala.jpg" alt="" className="menu-item-img"/>
             <span className="item-name">Mix Veg Masala</span>{" "}
             <span className="item-price">160</span>
           </li>
           <li>
+          <img src="/veg_tawa.jpg" alt="" className="menu-item-img"/>
             <span className="item-name">Veg Tawa</span>{" "}
             <span className="item-price">160</span>
           </li>
           <li>
+          <img src="/veg_kadai.jpg" alt="" className="menu-item-img"/>
             <span className="item-name">Veg Kadai</span>{" "}
             <span className="item-price">170</span>
           </li>
           <li>
+          <img src="/veg_kolhapuri.jpg" alt="" className="menu-item-img"/>
             <span className="item-name">Veg Kolhapuri</span>{" "}
             <span className="item-price">180</span>
           </li>
           <li>
+          <img src="/veg_handi.jpg" alt="" className="menu-item-img"/>
             <span className="item-name">Veg Handi</span>{" "}
             <span className="item-price">170</span>
           </li>
           <li>
+          <img src="/mushroom_masala.jpg" alt="" className="menu-item-img"/>
             <span className="item-name">Mushroom Masala</span>{" "}
             <span className="item-price">180</span>
           </li>
           <li>
+          <img src="/baby_corn_mushroom_masala.jpg" alt="" className="menu-item-img"/>
             <span className="item-name">Baby Corn Mushroom Masala</span>{" "}
             <span className="item-price">180</span>
           </li>
           <li>
+          <img src="/baby_corn_masala.jpg" alt="" className="menu-item-img"/>
             <span className="item-name">Baby Corn Masala</span>{" "}
             <span className="item-price">160</span>
           </li>
           <li>
+          <img src="/aloo_mutter.jpg" alt="" className="menu-item-img"/>
             <span className="item-name">Aloo Mutter</span>{" "}
             <span className="item-price">160</span>
           </li>
           <li>
+          <img src="/veg_kofta.jpg" alt="" className="menu-item-img"/>
             <span className="item-name">Veg Kofta</span>{" "}
             <span className="item-price">160</span>
           </li>
           <li>
+          <img src="/bende_masala.jpg" alt="" className="menu-item-img"/>
             <span className="item-name">Bende Masala</span>{" "}
             <span className="item-price">160</span>
           </li>
           <li>
+          <img src="/bende_fry.jpg" alt="" className="menu-item-img"/>
             <span className="item-name">Bende Fry</span>{" "}
             <span className="item-price">160</span>
           </li>
           <li>
+          <img src="/capsicum_masala.jpg" alt="" className="menu-item-img"/>
             <span className="item-name">Capsicum Masala</span>{" "}
             <span className="item-price">170</span>
           </li>
           <li>
+          <img src="/patta_gobi_masala.webp" alt="" className="menu-item-img"/>
             <span className="item-name">Patta Gobi Masala</span>{" "}
             <span className="item-price">160</span>
           </li>
           <li>
+          <img src="/chenna_masala.jpg" alt="" className="menu-item-img"/>
             <span className="item-name">Chenna Masala</span>{" "}
             <span className="item-price">160</span>
           </li>
           <li>
+          <img src="/special.jpg" alt="" className="menu-item-img"/>
             <span className="item-name">Ayodya Special</span>{" "}
             <span className="item-price">250</span>
           </li>
           <li>
+          <img src="/aloo_gobi_masala.jpg" alt="" className="menu-item-img"/>
             <span className="item-name">Aloo Gobi Masala</span>{" "}
             <span className="item-price">180</span>
           </li>
           <li>
+          <img src="/aloo_palak_masala.jpg" alt="" className="menu-item-img"/>
             <span className="item-name">Aloo Palak Masala</span>{" "}
             <span className="item-price">180</span>
           </li>
           <li>
+          <img src="/aloo_paneer_masala.jpg" alt="" className="menu-item-img"/>
             <span className="item-name">Aloo Paneer Masala</span>{" "}
             <span className="item-price">180</span>
           </li>
           <li>
+          <img src="/aloo_chana_masala.jpg" alt="" className="menu-item-img"/>
             <span className="item-name">Aloo Chana Masala</span>{" "}
             <span className="item-price">180</span>
           </li>
           <li>
+          <img src="/palak_mattar_masala.jpg" alt="" className="menu-item-img"/>
             <span className="item-name">Palak Matar Masala</span>{" "}
             <span className="item-price">180</span>
           </li>
           <li>
+          <img src="/green_rice_masala.jpg" alt="" className="menu-item-img"/>
             <span className="item-name">Green Rice Masala</span>{" "}
             <span className="item-price">170</span>
           </li>

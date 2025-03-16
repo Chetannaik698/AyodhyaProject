@@ -38,8 +38,8 @@ const Tagline = () => {
 
   return (
     <div className="tagline-container">
-      <h3>HOTEL SHREE AYODHYA</h3>
-      <h4 className="typing">{currentText}</h4>
+      <div className="logo"><img src="/logo.jpg"alt="" /></div>
+      {/* <h4 className="typing">{currentText}</h4> */}
     </div>
   );
 };

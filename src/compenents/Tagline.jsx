@@ -38,7 +38,10 @@ const Tagline = () => {
 
   return (
     <div className="tagline-container">
-      <div className="logo"><img src="/logo.jpg"alt="" /></div>
+      <div className="logo">
+        <img src="/logo.jpg"alt="" />
+        <img src="/logo2.jpg" alt="" />
+      </div>
       {/* <h4 className="typing">{currentText}</h4> */}
     </div>
   );
